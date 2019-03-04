@@ -1,11 +1,16 @@
-# [Current Reading](https://docs.spring.io/spring-boot/docs/2.1.3.RELEASE/reference/htmlsingle/#using-boot-build-systems) [@](https://docs.spring.io/spring-boot/docs/2.1.3.RELEASE/reference/htmlsingle/#getting-started-first-application-executable-jar)
+ [Current Reading](https://docs.spring.io/spring-boot/docs/2.1.3.RELEASE/reference/htmlsingle/#using-boot-build-systems) [@](https://docs.spring.io/spring-boot/docs/2.1.3.RELEASE/reference/htmlsingle/#getting-started-first-application-executable-jar)
 
-## Configuration
+### Configuration
 
 IDE: IntelliJ IDEA
+
 JDK: 1.8.0_141
+
 Project Language Level: 10
+
 Maven: 3.3.9
+
+### Notes
 
 **@EnableAutoConfiguration**: Spring Boot will 'guess' how we want to configure Spring, based on the jar dependencies we've added. In the case of the simple spring-boot application, we've used `spring-boot-starter-web`which addes Tomcat and Spring MVC, so the auto-configuration assumes that we're developing a web application and will set up Spring accordingly.
 
